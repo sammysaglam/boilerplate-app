@@ -1,0 +1,16 @@
+**/node_modules/**
+
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+build/
+.swc/
+
+.env
+yarn-error.log
+build-storybook.log
+*storybook.log
+src/stories/**
+
+**/translations/extracted-messages.json

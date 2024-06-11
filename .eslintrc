@@ -1,0 +1,6 @@
+{
+  "extends": "sammy",
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "target": "es2016",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "lib": ["ESNext", "DOM"],
+    "baseUrl": ".",
+    "paths": {
+      "@/icons": ["./src/icons/index.ts"],
+      "@/features/*": ["./src/features/*"],
+      "@/ui/*": ["./src/ui-components/*"],
+      "@/theme": ["./src/theme"],
+      "@/test-utils": ["./tests-config/test-utils"],
+      "@/utils/*": ["./src/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}

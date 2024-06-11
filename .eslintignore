@@ -1,0 +1,9 @@
+**/node_modules/**
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+build/
+server/
+public/
+.swc/

@@ -1,0 +1,15 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": false,
+      "dynamicImport": true
+    },
+    "experimental": {
+      "plugins": [
+        ["@swc/plugin-styled-components", { "displayName": true, "ssr": false }]
+      ]
+    }
+  }
+}
